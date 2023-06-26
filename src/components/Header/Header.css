@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: rgb(26, 25, 25);
+    justify-content: space-between;
+}
+
+.header-text{
+    font-size: 2rem;
+    color: white;
+}
+
+.a-tag {
+    color: grey;
+    border: 1px solid rgba(30, 45, 61, 1);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.93rem;
+    padding-bottom: 0.93rem;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 0;
+    font-weight: 450;
+    text-decoration: none;
+}
+
+.a-tag.active {
+    color: white;
+    border-left-width: 1px solid rgba(30, 45, 61, 1);
+    border-right-width: 1px solid rgba(30, 45, 61, 1);
+    border-top-width: 1px solid rgba(30, 45, 61, 1);
+    border-bottom: 3px solid rgba(254, 165, 95, 1);
+  }
+

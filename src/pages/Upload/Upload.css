@@ -1,0 +1,64 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 6rem;
+    height: 100vh;
+}
+
+/* ImageUploader.css */
+
+.custom-upload {
+    display: inline-block;
+    background: linear-gradient(to bottom right, #FF8008, #FFC837);
+    color: #fff;
+    border: none;
+    padding: 16px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .custom-upload:hover {
+    background: linear-gradient(to bottom right, #FF8008, #FFC837);
+  }
+  
+  .upload-input {
+    opacity: 0;
+    position: absolute;
+    width: 0;
+    color: white;
+    height: 0;
+  }
+  
+  .upload-button {
+    background: linear-gradient(to bottom right, #4EADFF, #6BFFC1);
+    color: black;
+    border: none;
+    padding: 16px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+  }
+  
+  .upload-button:hover {
+    background: linear-gradient(to bottom right, #4EADFF, #6BFFC1);
+  }
+
+  .selected-images{
+    display: flex;
+    color: white;
+  }
+
+  .p-tag{
+    padding: 0.4rem;
+    border: 3px solid green;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 0;
+}
+  
